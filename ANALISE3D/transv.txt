@@ -1,0 +1,22 @@
+/SOL
+FINISH  
+/POST1  
+PATH,transv,2,30,500,   
+PPATH,1,0,Hn,,,0,   
+PPATH,2,0,Hn,,ESP/2,0,  
+AVPRIN,0, , 
+!*  
+PDEF, ,S,Y,AVG  
+/PBC,PATH, ,1   
+!*  
+AVPRIN,0, , 
+!*  
+PDEF, ,S,EQV,AVG
+/PBC,PATH, ,1   
+!*  
+AVPRIN,0, , 
+!*  
+PDEF, ,S,EQV,AVG
+/PBC,PATH, ,1   
+!*  
+PLPATH,SY,SEQV  

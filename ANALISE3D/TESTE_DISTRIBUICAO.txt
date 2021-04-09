@@ -1,0 +1,10 @@
+/POST1  
+PATH,VERIRICA,2,30,150, 
+PPATH,1,0,,L/2,,0,  
+PPATH,2,0,HG,L/2,,0,
+AVPRIN,0, , 
+!*  
+PDEF, ,S,Y,AVG  
+/PBC,PATH, ,0   
+!*  
+PLPATH,SY   
